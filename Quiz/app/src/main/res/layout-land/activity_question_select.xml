@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ProgressBar
+        android:id="@+id/questionProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_gravity="center"
+        android:max="15000"
+        android:progress="3000"
+        android:progressTint="#00aa00"
+        android:scaleY="2" />
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/answerA"
+                android:layout_height="55dp"
+                android:layout_marginBottom="6dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button_style_a"
+                android:enabled="false"
+                android:text="A"
+                />
+
+            <Button
+                android:id="@+id/answerBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style1"
+                android:textColor="#0000AA"
+                android:layout_marginBottom="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="12dp"
+                android:onClick="answerOnClick"
+                android:text="Button1" />
+
+            <Button
+                android:id="@+id/answerB"
+                android:layout_height="55dp"
+                android:layout_marginBottom="6dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button_style_b"
+                android:enabled="false"
+                android:text="B"
+                />
+
+            <Button
+                android:id="@+id/answerBtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style2"
+                android:textColor="#6A0888"
+                android:layout_marginBottom="6dp"
+                android:textSize="12dp"
+                android:onClick="answerOnClick"
+                android:text="Button2" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/answerC"
+                android:layout_height="55dp"
+                android:layout_marginBottom="6dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button_style_c"
+                android:enabled="false"
+                android:text="C"
+                />
+
+            <Button
+                android:id="@+id/answerBtn3"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style3"
+                android:textColor="#AA0000"
+                android:layout_marginBottom="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="12dp"
+                android:onClick="answerOnClick"
+                android:text="Button3" />
+
+            <Button
+                android:id="@+id/answerD"
+                android:layout_height="55dp"
+                android:layout_marginBottom="6dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button_style_d"
+                android:enabled="false"
+                android:text="D"
+                />
+
+            <Button
+                android:id="@+id/answerBtn4"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style4"
+                android:textColor="#AAAA00"
+                android:layout_marginBottom="6dp"
+                android:textSize="12dp"
+                android:onClick="answerOnClick"
+                android:text="Button4" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
