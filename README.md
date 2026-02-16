@@ -6,28 +6,28 @@
 
 ## 📱 Android-Quiz
 
-Ovaj projekt predstavlja aplikaciju za igranje kviza s više kategorija i razina težine.
+This project is a quiz application featuring multiple categories and difficulty levels.
 
-Za početak korištenja aplikacije potrebno je:
-- registrirati korisnički račun
-- potvrditi registraciju putem e-maila
-- prijaviti se u aplikaciju
+To start using the application, users must:
+- create a user account  
+- confirm their registration via email  
+- log in to the application  
 
-Nakon prve prijave, pri sljedećim pokretanjima aplikacije nije potrebno ponovno unositi podatke za prijavu.  
-Podaci vezani uz registraciju pohranjuju se u bazu podataka na serveru.
+After the initial login, users are not required to enter their credentials again when reopening the app.  
+Registration-related data is stored in a database on the server.
 
 ---
 
-## 🎯 Funkcionalnosti
+## 🎯 Features
 
-- Više kategorija (npr. sport, životinje, matematika, opća kultura...)
-- Više razina unutar svake kategorije
-- Otključavanje sljedeće razine nakon točno riješenih svih pitanja
-- Praćenje vlastitog napretka po kategorijama
-- Prikaz liste 10 najuspješnijih igrača (dohvat sa servera)
-- Lokalna baza podataka za pohranu pitanja
-- 4 ponuđena odgovora po pitanju
-- Vremensko ograničenje za svaki odgovor
-- Dostupnost na hrvatskom i engleskom jeziku
+- Multiple categories (e.g., sports, animals, mathematics, general knowledge...)
+- Multiple levels within each category
+- Unlocking the next level after correctly answering all questions
+- Progress tracking across all categories
+- Top 10 leaderboard (retrieved from the server)
+- Local database for storing quiz questions
+- Four answer options per question
+- Time limit for each question
+- Available in Croatian and English
 
 <img src="question_types.PNG">
