@@ -1,3 +1,7 @@
+⚠️ Note: This project was developed as a student assignment, and the code may not follow current best practices.<br>
+🤝 Collaboration with Dajana Jerončić, Mihaela Gamulin, Luka Valenta <br>
+📅 Date: 2018 <br>
+
 ## Student project for the course "Programiranje za suvremene procesore" at PMF Zagreb, 2018./2019.
 
 ## 📱 Android-Quiz
