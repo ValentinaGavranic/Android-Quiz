@@ -1,7 +1,27 @@
-# AndroidQuiz
+## Student project for the course "Programiranje za suvremene procesore" at PMF Zagreb.
 
-Projekt je aplikacija za igranje kviza. Da bi se počela koristiti aplikacija potrebno se registrirati i potvrditi registraciju putem email-a. Nakon toga se potrebno prijaviti u aplikaciju i u sljedećim otvaranjima nije se potrebno prijavljivati. Podatci vezani za registraciju spremaju se u bazu na serveru. 
-Kviz će imati nekoliko kategorija, npr. sport, životinje, matematika, opća kultura…
-U svakoj kategoriji postojat će nekoliko razina. Kada korisnik točno riješi sva pitanja na nekoj razini može prijeći na sljedeću razinu. Unutar aplikacije može vidjeti svoj napredak u svim kategorijama te sa servera dohvatiti rezultate deset najuspješnijih igrača. Sva pitanja bit će spremljena u lokalnoj bazi.
-Vrijeme za odgovor na svako pitanje bit će ograničeno, a za svako pitanje bit će ponuđena četiri odgovora.
-Pitanja će biti dostupna na hrvatskom i engleskom jeziku.
+## 📱 Android-Quiz
+
+Ovaj projekt predstavlja aplikaciju za igranje kviza s više kategorija i razina težine.
+
+Za početak korištenja aplikacije potrebno je:
+- registrirati korisnički račun
+- potvrditi registraciju putem e-maila
+- prijaviti se u aplikaciju
+
+Nakon prve prijave, pri sljedećim pokretanjima aplikacije nije potrebno ponovno unositi podatke za prijavu.  
+Podaci vezani uz registraciju pohranjuju se u bazu podataka na serveru.
+
+---
+
+## 🎯 Funkcionalnosti
+
+- Više kategorija (npr. sport, životinje, matematika, opća kultura...)
+- Više razina unutar svake kategorije
+- Otključavanje sljedeće razine nakon točno riješenih svih pitanja
+- Praćenje vlastitog napretka po kategorijama
+- Prikaz liste 10 najuspješnijih igrača (dohvat sa servera)
+- Lokalna baza podataka za pohranu pitanja
+- 4 ponuđena odgovora po pitanju
+- Vremensko ograničenje za svaki odgovor
+- Dostupnost na hrvatskom i engleskom jeziku
