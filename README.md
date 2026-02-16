@@ -1,4 +1,4 @@
-## Student project for the course "Programiranje za suvremene procesore" at PMF Zagreb.
+## Student project for the course "Programiranje za suvremene procesore" at PMF Zagreb, 2018./2019.
 
 ## 📱 Android-Quiz
 
@@ -25,3 +25,5 @@ Podaci vezani uz registraciju pohranjuju se u bazu podataka na serveru.
 - 4 ponuđena odgovora po pitanju
 - Vremensko ograničenje za svaki odgovor
 - Dostupnost na hrvatskom i engleskom jeziku
+
+<img src="question_types.PNG">
